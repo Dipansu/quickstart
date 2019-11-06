@@ -1,0 +1,7 @@
+pipeline{agent any 
+  stages{ stage('Clone Repo') 
+          { steps 
+                  { sh "npm run build"   }
+         }
+      }
+}
